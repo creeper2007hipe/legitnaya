@@ -1,11 +1,9 @@
-@import "tailwindcss";
-@import "./globals.css";
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
-/* @plugin "tailwindcss-animate"; */
-/* @import "tw-animate-css"; */
-/* @import "shadcn/tailwind.css"; */
+@tailwind utilities; */
+
+/* Если ты на Next.js 15+ и Tailwind 4, оставь только это: */
+@import "tailwindcss";
 
 @keyframes fade-in {
   from {
