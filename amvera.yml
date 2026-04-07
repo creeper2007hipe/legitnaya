@@ -3,3 +3,9 @@ meta:
   toolchain:
     name: npm
     version: 20
+
+build:
+  command: npm install && npx prisma generate && npx prisma db push --accept-data-loss && npm run build
+
+run:
+  command: npm start
